@@ -1,66 +1,122 @@
-body{
-    font-family: Arial, sans-serif;
-    margin:0;
-    background:#0f0f0f;
-    color:white;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James - GitHub Profile</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin:0;
+            background:#0f0f0f;
+            color:white;
+        }
 
-header{
-    text-align:center;
-    padding:60px 20px;
-    background:#8b0000;
-}
+        header{
+            text-align:center;
+            padding:60px 20px;
+            background:#8b0000;
+        }
 
-nav{
-    text-align:center;
-    background:#111;
-    padding:15px;
-}
+        nav{
+            text-align:center;
+            background:#111;
+            padding:15px;
+        }
 
-nav a{
-    color:white;
-    margin:0 10px;
-    text-decoration:none;
-    font-weight:bold;
-}
+        nav a{
+            color:white; 
+            margin:0 10px;
+            text-decoration:none;
+            font-weight:bold;
+        }
 
-section{
-    max-width:900px;
-    margin:auto;
-    padding:50px 20px;
-}
+        section{
+            max-width:900px;
+            margin:auto;
+            padding:50px 20px;
+        }
 
-h2{
-    color:#ff4444;
-}
+        h2{
+            color:#ff4444;
+        }
 
-.project{
-    background:#1a1a1a;
-    padding:20px;
-    margin:20px 0;
-    border-radius:10px;
-}
+        .project{
+            background:#1a1a1a;
+            padding:20px;
+            margin:20px 0;
+            border-radius:10px;
+        }
 
-.project img{
-    width:100%;
-    border-radius:10px;
-    margin-bottom:10px;
-}
+        .project img{
+            width:100%;
+            border-radius:10px;
+            margin-bottom:10px;
+        }
 
-ul{
-    list-style:none;
-    padding:0;
-}
+        ul{
+            list-style:none;
+            padding:0;
+        }
 
-li{
-    background:#1a1a1a;
-    margin:10px 0;
-    padding:10px;
-    border-radius:8px;
-}
+        li{
+            background:#1a1a1a;
+            margin:10px 0;
+            padding:10px;
+            border-radius:8px;
+        }
 
-footer{
-    text-align:center;
-    padding:20px;
-    background:#111;
-}
+        footer{
+            text-align:center;
+            padding:20px;
+            background:#111;
+        }
+
+        .logo {
+            max-width: 400px;
+            margin: 20px auto;
+            display: block;
+        }
+
+        .interests {
+            max-width: 800px;
+            margin: 20px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/home/workdir/attachments/lAbcL" alt="Medival Hearts Logo" class="logo">
+        <h1>MEDIVAL HEARTS</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+        <a href="#projects">Projects</a>
+    </nav>
+
+    <section id="about">
+        <h2>About</h2>
+        <p>James - Developer & Creator</p>
+    </section>
+
+    <section id="interests">
+        <h2>Interests</h2>
+        <img src="/home/workdir/attachments/IcGFx" alt="James Interests Collage" class="interests">
+    </section>
+
+    <section id="projects" class="project">
+        <h2>Projects</h2>
+        <ul>
+            <li>Project 1</li>
+            <li>Project 2</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>James © 2026</p>
+    </footer>
+</body>
+</html>
